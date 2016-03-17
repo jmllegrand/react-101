@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "yolo": "git add --all && git commit -am \"Adding Properties to Components \" && npm version minor && git push origin master --tags"
+    "yolo": "git add --all && git commit -am \"Add markdown style \" && npm version minor && git push origin master --tags"
   },
   "repository": {
     "type": "git",
