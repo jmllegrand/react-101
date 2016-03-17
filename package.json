@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "yolo": "git add --all && git commit -am \"Ganerate a list dynamically from a local JSON \" && npm version minor && git push origin master --tags"
+    "yolo": "git add --all && git commit -am \"Fetching data from the server \" && npm version minor && git push origin master --tags"
   },
   "repository": {
     "type": "git",
