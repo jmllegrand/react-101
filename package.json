@@ -1,0 +1,33 @@
+{
+  "name": "react-tutorial",
+  "version": "0.0.1",
+  "description": "Code from the React tutorial.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "yolo": "git add --all && git commit -am \"Initial Componenet\" && npm version minor && git push origin master --tags",
+    "version": "version patch -m \"Upgrade to %s for reasons\" ",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmllegrand/react-101.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "101",
+    "npm"
+  ],
+  "author": "jmllegrand",
+  "homepage": "https://github.com/jmllegrand/react-101",
+  "engines": {
+    "node": "0.12.x"
+  }
+}
