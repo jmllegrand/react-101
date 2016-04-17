@@ -1,17 +1,22 @@
 [
-    {
-        "id": 1388534400000,
-        "author": "Pete Hunt",
-        "text": "Hey there!"
-    },
-    {
-        "id": 1420070400000,
-        "author": "Paul O’Shannessy",
-        "text": "React is *great*!"
-    },
-    {
-        "id": 1221070400000,
-        "author": "JM Legrand",
-        "text": "Hello World Pitchou! Cutie!!!"
-    }
+  {
+    "id": 1388534400000,
+    "author": "Pete Hunt",
+    "text": "Hey there!"
+  },
+  {
+    "id": 1420070400000,
+    "author": "Paul O’Shannessy",
+    "text": "React is *great*!"
+  },
+  {
+    "id": 1221070400000,
+    "author": "JM Legrand",
+    "text": "Hello World Pitchou! Cutie!!!"
+  },
+  {
+    "id": 1221070400002,
+    "author": "JM Legrand",
+    "text": "Hello World Pitchou! Welcome!!!"
+  }
 ]

@@ -34,3 +34,10 @@ PORT=3001 node server.js
 ## Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
+#### How to build basic Component
+#### How to compose Components
+#### How to add properties to a Component
+#### How to Generate a list dynamically from a local JSON
+#### How to Fetch data from the server
