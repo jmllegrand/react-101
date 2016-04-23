@@ -9,6 +9,7 @@ var CommentBox = React.createClass({
       dataType: 'json',
       cache: false,
       success: function(data) {
+        console.info('JM - in loadCommentsFromServer() with latest data', JSON.stringify(data));
         this.setState({data: data});
       }.bind(this),
       error: function(xhr, status, err) {
@@ -17,9 +18,11 @@ var CommentBox = React.createClass({
     });
   },
   getInitialState: function() {
+    console.info('JM - in getInitialState()');
     return {data: []};
   },
   componentDidMount: function() {
+    console.info('JM - in componentDidMount()');
     this.loadCommentsFromServer();
     setInterval(this.loadCommentsFromServer, this.props.pollInterval);
   },
